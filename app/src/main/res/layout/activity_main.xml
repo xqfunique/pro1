@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:id="@+id/cmpname"
+            android:layout_width="157dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="1"
+            android:gravity="clip_horizontal|center|clip_vertical|center_horizontal"
+            android:text="@string/cmpName"
+            android:textSize="24sp"
+            android:layout_marginStart="30dp" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_marginLeft="80dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/download"
+            android:layout_marginStart="80dp"
+            tools:ignore="ContentDescription" />
+
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/horizontalLine"
+        android:layout_width="wrap_content"
+        android:layout_height="3dp"
+        android:layout_gravity="right|center_horizontal|fill|fill_horizontal|top|left|center_vertical|fill_vertical|end"
+
+        android:layout_marginTop="10dp"
+        android:background="#000000" />
+
+    <TextView
+
+        android:id="@+id/personDetails"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="50dp"
+        android:layout_weight="1"
+        android:gravity="clip_horizontal|center|clip_vertical|center_horizontal"
+        android:text="Name\n Job title\nPH Number\nAdress\nname@gmail.com\nname.com"
+        android:textSize="24sp" />
+
+
+</LinearLayout>
